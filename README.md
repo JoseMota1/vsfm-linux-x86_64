@@ -11,8 +11,8 @@ will download, install, build and run the software. Subsequent runs of
 `./visualsfm.sh` launch the VisualSFM GUI.
 
 ## Author
-[Anders Damsgaard](mailto:adamsgaard@ucsd.edu) with contributions by Caleb 
-Adams.
+[Anders Damsgaard](mailto:adamsgaard@ucsd.edu) with contributions by Caleb Adams 
+and Connor P Doherty.
 
 ## Todo
 - VisualSFM is built without CUDA acceleration. Add optional GPU build.
