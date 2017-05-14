@@ -24,9 +24,10 @@ SiftGPU/bin/libsiftgpu.so: SiftGPU
 
 SiftGPU: SiftGPU.zip
 	unzip $<
+	mv SiftGPU-master SiftGPU
 
 SiftGPU.zip:
-	wget http://wwwx.cs.unc.edu/~ccwu/cgi-bin/siftgpu.cgi -O $@
+	wget https://github.com/pitzer/SiftGPU/archive/master.zip -O $@
 
 vsfm/bin/VisualSFM: vsfm
 	cd $< && make
